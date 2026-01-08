@@ -7,3 +7,18 @@
     color: #30B868;
 }
 /* Shared Style end */
+
+/* nav style part start */
+nav {
+    border: 2px solid;
+}
+
+nav .nav-menu-container ul li {
+    list-style: none;
+}
+
+nav .nav-menu-container ul li a {
+    text-decoration: none;
+}
+
+/* nav style part end */
