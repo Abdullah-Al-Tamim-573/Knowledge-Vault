@@ -193,6 +193,16 @@ nav .nav-button-container button {
 
 /* Your second brain structured by design and image section start */
 
+/* total Your second brain structured by design and image section parent */
+.your-second-brain-structured-by-design-and-image-main-container {
+    max-width: 1328px;
+     display: flex;
+     gap: 60px;
+     align-items: center;
+     justify-content: center;
+     margin: 0 auto;
+}
+
 
 /* the solution text */
 .your-second-brain-content-container .The-Solution {
@@ -205,11 +215,13 @@ nav .nav-button-container button {
     color: #001931;
     font-weight: bold;
     font-size: 2.5rem;
+    margin: 16px 0px;
 }
 /* short description */
 .your-second-brain-content-container .Your-second-brain-short-description {
     color:#627382;
     font-size: 1rem;
+    margin-bottom: 30px;
 }
 
  /* tik image and content part */
@@ -222,6 +234,7 @@ nav .nav-button-container button {
     .tik-and-content-flex-align {
         display: flex;
         gap:2px;
+        margin-bottom: 1rem;
     }
 
 /* Your second brain structured by design and image section end */
