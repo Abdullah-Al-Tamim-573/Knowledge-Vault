@@ -20,6 +20,12 @@
 .cursor {
     cursor: pointer;
 }
+
+.btn-hover:hover {
+    background-color: black;
+    color: #30B868;
+    
+}
 /* Shared Style end */
 
 /* nav style part start */
@@ -85,6 +91,27 @@ nav .nav-button-container button {
       text-align: center;
 }
 
+.banner-content-and-btn-container .Early-access-Now-Open-text {
+    border: 2px solid green;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #30B868;
+    background-color: #fff;
+    max-width: 250px;
+    padding: 8px 12px;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.Early-access-Now-Open-text img {
+    width: 20px;
+}
+
 
 .banner-title-container h1 {
      font-weight: bold;
@@ -97,6 +124,7 @@ nav .nav-button-container button {
     font-size: 18px;
     margin: 16px 0px 32px 0px;
     line-height: 30px;
+    color: #fff;
 }
 
 .banner-2-btn-container .banner-btn-1 {
@@ -107,6 +135,7 @@ nav .nav-button-container button {
     border-radius: 5px;
     margin-right: 1rem;
 }
+
 
 .banner-2-btn-container .banner-btn-2 {
     font-weight: 600;
@@ -304,9 +333,8 @@ footer {
     height: 500px;
 }
 
-.footer-logo-image-and-social-link-container {
-    
-    
+
+.footer-logo-and-social-link-and-copyright-main-container {
     max-width: 1328px;
     
     margin: 0 auto;
@@ -334,4 +362,9 @@ footer {
     align-items: center;
     gap: 10px;
     justify-content: center;
+}
+
+.last-copy-right-icon-and-some-text-part {
+    text-align: center;
+    margin-top: 30px;
 }
