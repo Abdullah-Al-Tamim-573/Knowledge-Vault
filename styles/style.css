@@ -20,10 +20,13 @@
 
 /* nav style part start */
 nav {
-    border: 2px solid;
+    /* border: 2px solid; */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1328px;
+    /* max-width: 1057px; */
+    margin: 10px auto;
 }
 
 nav .nav-logo-container img{
