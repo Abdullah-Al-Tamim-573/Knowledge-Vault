@@ -89,7 +89,8 @@ nav .nav-button-container button {
 .banner-title-container h1 {
      font-weight: bold;
      /* font-size: 3.6rem; */
-     font-size: 72px;
+     
+     font-size: 4.8rem;
 }
 
 .banner-small-description-container p {
@@ -129,7 +130,7 @@ nav .nav-button-container button {
 
 .Notes-don-t-fail-main-container .big-title {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 2.5rem;
 }
 
 .Notes-don-t-fail-main-container .short-description {
@@ -146,7 +147,10 @@ nav .nav-button-container button {
 #four-box-section-main-container {
    
     max-width: 1328px;
-    margin: 0 auto 100px auto;
+    margin: 44px auto 120px auto;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
 }
 
 .shared-box-style {
@@ -184,6 +188,40 @@ nav .nav-button-container button {
    color: #627382;
 }
 
-
-
 /* four Box style part end */
+
+
+/* Your second brain structured by design and image section start */
+
+
+/* the solution text */
+.your-second-brain-content-container .The-Solution {
+   color: #30B868;
+   font-weight: 500;
+   font-size: 1rem;
+}
+/* big title */
+.your-second-brain-content-container .Your-second-brain-title {
+    color: #001931;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+/* short description */
+.your-second-brain-content-container .Your-second-brain-short-description {
+    color:#627382;
+    font-size: 1rem;
+}
+
+ /* tik image and content part */
+    .tik-content {
+        font-weight: 500;
+        font-size: 1rem;
+        color: #001931;
+    }
+
+    .tik-and-content-flex-align {
+        display: flex;
+        gap:2px;
+    }
+
+/* Your second brain structured by design and image section end */
