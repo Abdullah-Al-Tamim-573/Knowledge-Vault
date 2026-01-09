@@ -61,3 +61,34 @@ nav .nav-button-container button {
 
 
 /* nav style part end */
+
+
+/* banner style part start */
+
+
+.banner-title-container h1 {
+     font-weight: bold;
+     font-size: 3.6rem;
+}
+
+.banner-small-description-container p {
+    font-size: 18px;
+}
+
+.banner-2-btn-container .banner-btn-1 {
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    padding: 16px 16.5px;
+    border-radius: 5px;
+}
+
+.banner-2-btn-container .banner-btn-2 {
+    font-weight: 600;
+    font-size: 1rem;
+     padding: 16px 16.5px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+
+/* banner style part end */
