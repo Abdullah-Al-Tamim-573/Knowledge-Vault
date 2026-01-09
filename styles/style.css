@@ -17,7 +17,9 @@
     color: #30B868;
 }
 
-
+.cursor {
+    cursor: pointer;
+}
 /* Shared Style end */
 
 /* nav style part start */
@@ -86,7 +88,8 @@ nav .nav-button-container button {
 
 .banner-title-container h1 {
      font-weight: bold;
-     font-size: 3.6rem;
+     /* font-size: 3.6rem; */
+     font-size: 72px;
 }
 
 .banner-small-description-container p {
@@ -113,3 +116,26 @@ nav .nav-button-container button {
 }
 
 /* banner style part end */
+
+
+
+/* Notes don't fail, Structure does style part start */
+
+.Notes-don-t-fail-main-container {
+    max-width: 1328px;  
+    margin: 50px auto 44px auto;
+    text-align: center;
+}
+
+.Notes-don-t-fail-main-container .big-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Notes-don-t-fail-main-container .short-description {
+    color: #627382;
+    font-size: 1rem;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+/* Notes don't fail, Structure does style part end */
