@@ -292,3 +292,46 @@ nav .nav-button-container button {
 }
 
 /* Ready to think more clearly section main container end */
+
+
+
+/* footer part */
+
+footer {
+    background-color: #fff;
+    background-color: #001931;
+    color: #fff;
+    height: 500px;
+}
+
+.footer-logo-image-and-social-link-container {
+    
+    
+    max-width: 1328px;
+    
+    margin: 0 auto;
+}
+
+.footer-logo-image-and-social-link-container {
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 400px;
+
+}
+
+.social-links-part-container .social-links-text{
+     font-weight: 500;
+     font-size: 1.3rem;
+     margin-bottom: 1rem;
+     
+}
+
+.footer-social-icon-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
