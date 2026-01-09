@@ -214,7 +214,7 @@ nav .nav-button-container button {
 .your-second-brain-content-container .Your-second-brain-title {
     color: #001931;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 16px 0px;
 }
 /* short description */
@@ -238,3 +238,57 @@ nav .nav-button-container button {
     }
 
 /* Your second brain structured by design and image section end */
+
+
+/* Ready to think more clearly section main container start */
+.ready-to-think-more-clearly-text-and-btn-main-container {
+ max-width: 1328px;  
+ margin: 50px auto;
+ height: 384px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: #F7F6F2;
+}
+
+.Ready-to-think-more-big-title {
+   font-weight: bold;
+   font-size: 2.5rem;
+   color: #001931;
+}
+
+.Ready-to-think-more-short-description {
+  color: #627382;
+  font-size: 1rem;
+  margin: 16px 0px 24px 0px;
+
+}
+
+.Get-Early-Access-btn {
+   padding: 16px 18px;
+   border: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap:10px;
+   font-size: 1rem;
+   font-size: 600;
+   border-radius: 5px;
+   margin-bottom: 1rem;
+}
+
+/* simple text part (Free during early access • No credit card needed) */
+.Free-during-early-access-No-credit-card-needed-ul-container {
+    display: flex;
+    gap: 25px;
+    color: #627382;
+    font-size: 1rem;
+}
+
+.first-list {
+    list-style: none;
+    
+}
+
+/* Ready to think more clearly section main container end */
