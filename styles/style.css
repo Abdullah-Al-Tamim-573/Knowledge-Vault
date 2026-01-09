@@ -1,24 +1,60 @@
+* {
+   
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+
 /* Shared Style Start */
 .Medium-Sea-Green-bg {
      background-color: #30B868;
+     color: #fff;
 }
 
 .Medium-Sea-Green-text {
     color: #30B868;
 }
+
+
 /* Shared Style end */
 
 /* nav style part start */
 nav {
     border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-logo-container img{
+    max-width: 139px;
+}
+
+nav .nav-menu-container ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
 }
 
 nav .nav-menu-container ul li {
     list-style: none;
+    font-size: 2rem;
 }
 
 nav .nav-menu-container ul li a {
     text-decoration: none;
+    font-size: 1rem;
+    color: #000;
 }
+
+nav .nav-button-container button {
+   font-weight: 600;
+   font-size: 1rem;
+   border: none;
+   padding: 12px 16px;
+   border-radius: 5px;
+}
+
+
 
 /* nav style part end */
